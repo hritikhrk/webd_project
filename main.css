@@ -1,0 +1,184 @@
+body
+{
+    background-color: #ffd8a6;
+}
+
+#p1
+{
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    color: #130409;
+}
+
+#p2
+{
+    text-align: center;
+    color: #19121a;
+}
+
+hr
+{
+    color: #fc8210;
+}
+
+.intro
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fc8210;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h3{
+    color: rgb(15, 15, 0);
+}
+
+.container
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fc8210;
+    border-radius: 10px;
+}
+
+.box
+{
+    padding: 20px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box .card .sub
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 320px;
+    border-radius: 5px; 
+    
+}
+.box .card .sub:hover
+{
+    background-color: #ffd8a6;
+}
+
+
+h3
+{
+    text-align: center;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 410px;
+    width: 908px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+  
+.slide-wrapper {
+    width: 4540px;
+    -webkit-animation: slide 18s ease infinite;
+}
+  
+.slide {
+
+    float: left;
+    height: 410px;
+    width: 908px;
+}
+  
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -908px;}
+    50% {margin-left: -908px;}
+    60% {margin-left: -1816px;}
+    70% {margin-left: -1816px;}
+    80% {margin-left: -2724px;}
+    90% {margin-left: -2724px;}
+}
+
+.foot
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #fc8210;
+    border-radius: 10px;
+    display: flex;
+    float: left;
+}
+
+.foot .box2
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 388px;
+    border-radius: 10px; 
+}
+
+.main2
+{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main2 .marg1:hover
+{
+    opacity: 0.7;
+}
+
+.main2 .marg2:hover
+{
+    opacity: 0.7;
+}
+.main2 .marg3:hover
+{
+    opacity: 0.7;
+}
+
+.nav1 , .nav2, .nav3
+{
+    background-color: #fc8210;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.nav1:hover{
+    opacity: 0.8;
+}
+.nav2:hover{
+    opacity: 0.8;
+}
+.nav3:hover{
+    opacity: 0.8;
+}
+
+.amz
+{
+    margin: 10px;
+}
+
+h4{
+    text-align: center;
+}
